@@ -93,7 +93,7 @@ def Message processData(Message message) {
 ## 📁 Receiver Configuration
 Adapter Type: `SFTP`
 
-Purpose: Stores `{date:now:yyyy-MM-dd}.csv` file in remote server for archiving/weather reporting.
+Purpose: Stores `{date:now:yyyy-MM-dd}.csv` file in remote server for archiving/weather reporting, also helps generate date-specific reports on the remote SFTP server
 
 Output: One CSV per trigger request.
 
@@ -105,3 +105,11 @@ Output: One CSV per trigger request.
 - Groovy scripting for custom CSV generation
 
 - Cloud Integration to on-premise or cloud SFTP
+## 📝 Ending Note
+#### 🔁 Note on JSON-to-XML Converter:
+  In the earlier version of this project, the JSON-to-XML converter was added because the output was needed in XML format for a different use case. Later, when the
+  requirement changed to generate a CSV file via SFTP, I retained this component temporarily. However, a direct JSON-to-CSV conversion using Groovy is now the preferred and   optimized approach.
+
+#### ⚙️ Automation Variant:
+  I also created a second version of this iFlow which uses trigger automation to run the flow without manual input. It works best when you want daily reports for a fixed
+  (constant) location.
