@@ -75,8 +75,8 @@ Please contact support for assistance.
 
 – Hospital Admin
 ```
-### 🔁 XSLT Code Snippet (Transformation)
-
+### 🔁 XSLT Code Snippet (Transformation for this particular case): [.XSL file](https://github.com/nikhil1209ui/SAP-CPI-Artifacts-Integration-Flow/blob/main/%F0%9F%8F%A5Hospital-to-Lab%20Test%20Booking/confirmation.py)
+----
 ### 🔧 Mail Adapter Configuration
 | Field          | Value                                                                                    |
 | -------------- | ---------------------------------------------------------------------------------------- |
