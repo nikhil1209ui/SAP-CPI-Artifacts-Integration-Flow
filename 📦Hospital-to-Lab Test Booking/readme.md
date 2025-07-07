@@ -113,6 +113,16 @@ def Message processData(Message message) {
 - Exception subprocess + error routing
 - Conditional email handling
 
-#### 🙌 Credits
+### 🔄 Future Enhancement: SQLite DB Integration
+- In the upcoming version of this project, we plan to persist patient booking records into a local SQLite3 database for audit or reporting purposes.
+#### 🗂️The Flask app [.py](https://github.com/nikhil1209ui/SAP-CPI-Artifacts-Integration-Flow/blob/main/%F0%9F%8F%A5Hospital-to-Lab%20Test%20Booking/confirmation.py) already contains the necessary code to save booking data into the database — it’s currently commented for this version but included in the repository for easy reactivation.
+
+#### This would allow extended features like:
+- Booking history tracking
+- Duplicate booking checks
+- Offline storage for lab system backups
+
+### 🙌 Credits
 - Developed and maintained by Nikhil Kushwaha
-- 📌 Portfolio-ready project demonstrating real-world integration
+- Portfolio-ready project demonstrating real-world integration
+
