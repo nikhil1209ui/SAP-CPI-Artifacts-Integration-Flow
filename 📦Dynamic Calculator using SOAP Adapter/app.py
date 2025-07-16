@@ -3,8 +3,6 @@ import requests
 import xml.etree.ElementTree as et
 
 cpi_url = "https://nikhil-s-trial-of96evfv.it-cpitrial03-rt.cfapps.ap21.hana.ondemand.com/http/calculate"
-username = "sb-07735c9b-a4f2-41ca-bf06-efa31b89ee0b!b69137|it-rt-nikhil-s-trial-of96evfv!b196"
-password = "wbwd28uLSY6C7fqHs8SpkceljVEYk="
 
 operations = {
     '➕': 'Add',
